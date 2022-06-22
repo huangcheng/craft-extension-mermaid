@@ -1,0 +1,10 @@
+{
+  "id": "im.cheng.craft.mermaid",
+  "name": "Mermaid",
+  "fileName": "craft-extension-mermaid",
+  "author" : "Cheng Huang",
+  "author-email" : "cheng@airmail.im",
+  "description" : "Preview Mermaid Code Blocks",
+  "api": "0.0.4",
+  "main": "index.html"
+}

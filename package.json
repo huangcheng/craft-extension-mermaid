@@ -1,0 +1,59 @@
+{
+  "name": "craft-extension-mermaid",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack serve --mode=development",
+    "eslint": "eslint --fix --ext .ts --ext .tsx src",
+    "check-spell": "cspell src/**/*.{css,js,jsx,ts,tsx}"
+  },
+  "author": "Cheng Huang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huangcheng/craft-extension-mermaid"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "@craftdocs/craft-extension-api": "0.0.4",
+    "@craftdocs/craft-extension-api-sdk": "0.0.4",
+    "@types/mermaid": "^8.2.9",
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cspell": "^6.1.2",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.18.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-testing-library": "^5.5.1",
+    "eslint-plugin-typescript-sort-keys": "^2.1.0",
+    "eslint-plugin-unicorn": "^42.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.2",
+    "react-dev-utils": "^12.0.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2",
+    "zip-webpack-plugin": "^4.0.1"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.9.0",
+    "@emotion/react": "^11.9.3",
+    "@reactivex/rxjs": "^6.6.7",
+    "mermaid": "^9.1.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
